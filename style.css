@@ -86,6 +86,8 @@
 }
 
 .ugc-header-overlay-header {
+    margin: 0;
+    padding: 0;
     font-family: 'Crimson Text', "Crimson Text", Georgia, serif;
     font-style: normal;
     font-weight: 400;

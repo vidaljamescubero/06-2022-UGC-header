@@ -1,7 +1,7 @@
-let count = 0;
-let mobCount = 0;
+window.count = 0;
+window.mobCount = 0;
 
-function moveRight() {
+window.moveRight = function () {
     if (count == 7) {
         count = 0;
     } else {
@@ -15,7 +15,7 @@ function moveRight() {
     `
 }
 
-function moveLeft(){
+window.moveLeft = function () {
     if (count == 0) {
         count = 7;
     } else {
@@ -29,7 +29,7 @@ function moveLeft(){
     `
 }
 
-function moveRightMobile() {
+window.moveRightMobile = function () {
     if (mobCount === 6) {
         mobCount = 0
     } else {
@@ -43,7 +43,7 @@ function moveRightMobile() {
     `
 }
 
-function moveLeftMobile() {
+window.moveLeftMobile = function () {
     if (mobCount === 0) {
         mobCount = 6
     } else {
